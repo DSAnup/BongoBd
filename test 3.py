@@ -46,9 +46,9 @@ root.left.right = Node(5)
 root.right.left = Node(6)
 root.right.right = Node(7)
 
-print("LCA(4, 5) = %d" % (findLCA(root, 6, 7, )))
-print("LCA(4, 6) = %d" % (findLCA(root, 3, 7)))
-print("LCA(3, 4) = %d" % (findLCA(root, 3, 4)))
-print("LCA(2, 4) = %d" % (findLCA(root, 8, 9)))
+print("The least common ancestor (lca) of 6 & 7 is %d" % (findLCA(root, 6, 7, )))
+print("The least common ancestor (lca) of 3 & 7 is %d" % (findLCA(root, 3, 7)))
+print("The least common ancestor (lca) of 3 & 4 is %d" % (findLCA(root, 3, 4)))
+print("The least common ancestor (lca) of 8 & 9 is %d" % (findLCA(root, 8, 9)))
 
 # Time complexity & space complexity of the above solution is O(n)

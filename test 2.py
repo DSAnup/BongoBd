@@ -39,4 +39,6 @@ def print_depth(d, indent=1):
 
 print(print_depth(a))
 print(print_depth(b))
+
+
 # Time complexity & space complexity of the above solution is O(n)
